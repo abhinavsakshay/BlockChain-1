@@ -6,7 +6,9 @@ Exercises in Block Chain algorithms and Techniques
 Represents an unspent transaction output. A UTXO contains the hash of the transaction from which it originates as well as its index within that transaction.
 
 **UTXOPool.java**	
+
 Represents the current set of outstanding UTXOs and contains a map from each UTXO to its corresponding transaction output. This class contains constructors to create a new empty UTXOPool or a copy of a given UTXOPool, and methods to add and remove UTXOs from the pool, get the output corresponding to a given UTXO, check if a UTXO is in the pool, and get a list of all UTXOs in the pool.
+
 
 **Node.java**	
 
